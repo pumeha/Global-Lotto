@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="12dp"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Ticket Number"
+        android:id="@+id/check_ticket_no_layout"
+        app:boxCornerRadiusTopEnd="4dp"
+        app:boxCornerRadiusTopStart="4dp"
+        app:endIconMode="clear_text"
+        app:counterEnabled="true"
+        app:counterMaxLength="17"
+        android:layout_margin="8dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/check_ticket_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:text="Proceed  "
+        android:layout_gravity="center"
+        android:padding="8dp"
+        app:iconGravity="end"
+        app:elevation="4dp"
+        android:id="@+id/check_btn"
+        android:textAllCaps="false"
+        app:icon="@drawable/ic_send_black_24dp"/>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="4dp"
+        android:visibility="gone"
+        android:id="@+id/check_card"
+        app:cardCornerRadius="8dp"
+        android:layout_margin="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView android:layout_height="match_parent"
+                android:layout_width="9dp"
+                android:id="@+id/textView4"
+                android:background="@color/colorPrimaryDark"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="4dp"
+                android:background="@color/color_black">
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:id="@+id/item_game_date"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/color_white"
+                    android:text="se4523768dg"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:padding="4dp"
+                    android:orientation="horizontal">
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:padding="4dp"
+                        android:id="@+id/item_game_id"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/color_white"
+                        android:text="se4523768dg"/>
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:padding="4dp"
+                        android:id="@+id/game_full_name"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/color_white"
+                        android:text="Quick Lotto(5/11)"/>
+
+                    <ImageView
+                        android:id="@+id/item_game_status"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:src="@drawable/ic_baseline_check_circle_outline_24" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="4dp">
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.31"
+                        android:padding="4dp"
+                        android:id="@+id/item_game_name"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/color_white"
+                        android:text="Direct 1"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.31"
+                        android:padding="4dp"
+                        android:textAlignment="center"
+                        android:fontFamily="sans-serif"
+                        android:text="₦200"
+                        android:id="@+id/item_game_stack"
+                        android:textStyle="bold"
+                        android:textColor="@color/color_white" />
+
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_margin="4dp"
+                    android:background="@color/color_white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Played Numbers"
+                    android:layout_margin="4dp"
+                    android:textColor="@color/color_white"
+                    android:fontFamily="sans-serif"/>
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:id="@+id/item_game_played"
+                        android:paddingBottom="2dp"
+
+                        android:layout_marginLeft="12dp"
+                        android:layout_gravity="center"
+                        >
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Winning Numbers"
+                    android:visibility="gone"
+                    android:layout_margin="4dp"
+                    android:id="@+id/item_game_label"
+                    android:textColor="@color/color_white"
+                    android:fontFamily="sans-serif"/>
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:scrollbars="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:visibility="gone"
+                        android:layout_marginLeft="12dp"
+                        android:id="@+id/item_game_winner" >
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

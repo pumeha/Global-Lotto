@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="12dp"
+            android:layout_margin="12dp">
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Bank"
+                android:padding="8dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-black"
+                android:layout_margin="4dp"
+                android:elevation="3dp"
+                />
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="12dp"
+                android:id="@+id/wdraw_select_bank"
+                android:entries="@array/banks"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                android:id="@+id/wdraw_acc_name_layout"
+                app:boxCornerRadiusTopStart="12dp"
+                app:endIconMode="clear_text"
+                android:textColorHint="@color/color_black"
+                android:hint="Account Name">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:inputType="text"
+                    android:id="@+id/wdraw_acc_name"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxCornerRadiusTopStart="12dp"
+                android:id="@+id/wdraw_acc_number_layout"
+                app:endIconMode="clear_text"
+                android:textColorHint="@color/color_black"
+                android:hint="Account Number">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:inputType="number"
+                    android:id="@+id/wdraw_acc_number"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Proceed  "
+                android:padding="8dp"
+                app:iconGravity="end"
+                android:id="@+id/wdraw_btn"
+                app:elevation="4dp"
+                android:textAllCaps="false"
+                app:icon="@drawable/ic_send_black_24dp"/>
+        </LinearLayout>
+</ScrollView>

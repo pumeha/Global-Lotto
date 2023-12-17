@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_mainactivity"
+    app:startDestination="@id/resultsFragment">
+
+    <fragment
+        android:id="@+id/resultsFragment"
+        android:name="com.preciousumeha.globallotto.fragments.ResultFragmentSection"
+        android:label="fragment_results"
+        tools:layout="@layout/fragment_game_section" />
+    <fragment
+        android:id="@+id/gamesFragment2"
+        android:name="com.preciousumeha.globallotto.fragments.GameFragmentSection"
+        android:label="fragment_games"
+        tools:layout="@layout/fragment_game_section" />
+    <fragment
+        android:id="@+id/walletFragment"
+        android:name="com.preciousumeha.globallotto.fragments.WalletFragment"
+        android:label="fragment_wallet"
+        tools:layout="@layout/fragment_wallet" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.preciousumeha.globallotto.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile"/>
+</navigation>

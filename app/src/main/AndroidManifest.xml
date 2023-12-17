@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.preciousumeha.globallotto">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@drawable/logo_good"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_good"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppThemeNo">
+        <activity
+            android:name=".WithdrawalHistoryActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:noHistory="true" />
+        <activity
+            android:name=".HowToActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".CustomerCareActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".WithdrawActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".PickerActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".ShareFundHistoryActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".DepositActivity"
+            android:label="Deposit History"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".NotificationActivity"
+            android:label="Notification"
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNo">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".SignActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppThemeNo" />
+        <activity
+            android:name=".FlashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeFull"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#99FFFFFF"
+    tools:context=".fragments.ResultsFragment">
+    <TextView
+        android:id="@+id/item_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="8dp"
+        android:gravity="center"
+        android:text="@string/no_records"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:elevation="0dp"/>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/result_refresh">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/resultsFragmentRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/item_game" />
+
+
+
+
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</LinearLayout>

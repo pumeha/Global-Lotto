@@ -1,0 +1,177 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Global Lotto</string>
+    <string name="user_text">Win for Tomorrow</string>
+    <string name="user_acc">Create Account</string>
+    <string name="user_login">Login</string>
+    <string name="user_note">Welcome to Global lotto</string>
+    <string name="user_detail">Win for the future</string>
+    <string name="user_detail_t">and not for Tomorrow</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="get_started">Get Started</string>
+    <string name="results">Results</string>
+    <string name="games">Games</string>
+    <string name="wallet">Wallet</string>
+    <string name="profile">Profile</string>
+    <string name="format_full_friendly_date">
+
+    <xliff:g id="month">%1$s</xliff:g>
+    ,
+    <xliff:g id="day">%2$s</xliff:g>
+
+</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Full name</string>
+    <string name="how_to_play_note">Welcome to Global Lotto to know how to play you 
+        must understand the types of games we offer</string>
+    <string name="how_to_play">How to play</string>
+    <string name="direct_1">Direct 1</string>
+    <string name="direct_1_note">It means choose 1 number from 11 numbers, and only the number played is the first number drawn, then win,or else losses</string>
+    <string name="direct_2">Direct 2</string>
+    <string name="direct_2_note">It means choose any two numbers from 11 numbers, and only the two numbers played 
+        are in the five numbers drawn,then win, or else loses</string>
+    <string name="direct_3">Direct 3</string>
+    <string name="direct_3_note">It means choose any three numbers from 11 numbers,and only the three 
+        numbers played are in the first numbers drawn, then win, or else loses</string>
+    <string name="direct_4">Direct 4</string>
+    <string name="direct_4_note">It means choose any four numbers from 11 numbers, and only the four 
+        numbers played are in the first numbers drawn, then win, or else loses</string>
+    <string name="direct_5">Direct 5</string>
+    <string name="direct_5_note">It means choose any five numbers from 11 numbers, and only the five
+        numbers played are in the first numbers drawn, then win, or else loses</string>
+    <string name="perm_2">Perm 2</string>
+    <string name="perm_2_note">It means choose any 3 to 11 numbers from 11 numbers to permulate more direct2,
+        which is easy to win, and the rules and odds is the same with 2</string>
+    <string name="perm_3">Perm 3</string>
+    <string name="perm_3_note">It means choose any 4 to 11 numbers from 11 numbers to permulate more direct3,
+        which is easy to win, and the rules and odds is the same with 3</string>
+    <string name="perm_4">Perm 4</string>
+    <string name="perm_4_note">It means choose any 5 to 11 numbers from 11 numbers to permulate more direct4,
+        which is easy to win, and the rules and odds is the same with 4</string>
+    <string name="perm_5">Perm 5</string>
+    <string name="perm_5_note">It means choose any 6 to 11 numbers from 11 numbers to permulate more direct3,
+        which is easy to win, and the rules and odds is the same with 5</string>
+    <string name="no_records">No records found.Why don"'"t you play game in the game session. Cheers</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string-array name="game_type">
+        <item>Quick Lotto(5/11)</item>
+        <item>Lucky Lotto(5/90)</item>
+    </string-array>
+
+    <string-array name="g_cati">
+        <item>Direct</item>
+        <item>Perm</item>
+    </string-array>
+
+    <string-array name="g_cati_direct">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="g_cati_perm">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="g_cati_perm_2">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="g_cati_perm_3">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="g_cati_perm_4">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="g_cati_perm_5">
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="g_cati_perm_6">
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="g_cati_perm_7">
+        <item>8</item>
+    </string-array>
+
+    <string-array name="games_90">
+        <item>Direct 1</item>
+        <item>Direct 2</item>
+        <item>Direct 3</item>
+    </string-array>
+    <string-array name="banks">
+        <item>Select Bank</item>
+        <item>Diamond Bank</item>
+        <item>Zenith Bank</item>
+        <item>United Bank Of Africa</item>
+        <item>Guarantee Trust Bank</item>
+        <item>Access Bank Plc</item>
+        <item>First Bank Nigeria</item>
+        <item>Ecobank Bank</item>
+        <item>Fidelity Bank Nigeria</item>
+        <item>First City Monument Bank</item>
+        <item>Heritage Bank Plc</item>
+        <item>ASO SAVINGS AND LOANS</item>
+        <item>Coronation Merchant Bank</item>
+        <item>FBN Mortgages Limited</item>
+        <item>Fortis Microfinance Bank</item>
+        <item>FSDH MERCHANT BANK LIMIT</item>
+        <item>IMPERIAL HOMES MORTGAGE BANK</item>
+        <item>JAIZ BANK PLC</item>
+        <item>JUBILEE LIFE MORTGAGE BANK</item>
+        <item>KEYSTONE BANK</item>
+        <item>New Prudential Bank</item>
+        <item>NIGERIA INTERNATIONAL BANK (CITIGROUP)</item>
+        <item>NPF Microfinance Bank</item>
+        <item>Omoluabi Savings and Loans Plc</item>
+        <item>Page MFBank</item>
+        <item>PARALLEX MFB</item>
+        <item>PayAttitude Online</item>
+        <item>Safetrust Mortgage bank</item>
+        <item>Sky Bank Plc</item>
+        <item>STANBIC IBTC BANK PLC</item>
+        <item>STANDARD CHARTERED BANK NIGERIA LTD</item>
+        <item>STERLING BANK PLC</item>
+        <item>SunTrust Bank</item>
+        <item>TRUSTBOND MORTGAGE BANK</item>
+        <item>UNION BANK OF NIGERIA PLC</item>
+        <item>UNITY BANK PLC</item>
+        <item>VFD MICROFINANCE BANK</item>
+        <item>WEMA BANK PLC</item>
+    </string-array>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="user_change">It seems you sign in in another device or some override ownership kindly sign in again</string>
+</resources>

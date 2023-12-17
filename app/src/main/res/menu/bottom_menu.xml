@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/resultsFragment"
+        android:title="@string/results"
+        android:icon="@drawable/ic_home_black_24dp"/>
+    <item
+        android:id="@+id/gamesFragment2"
+        android:title="@string/games"
+        android:icon="@drawable/ic_games_black_24dp"/>
+    <item
+        android:id="@+id/walletFragment"
+        android:title="@string/wallet"
+        android:icon="@drawable/ic_nigeria_naira_currency_symbol_svgrepo"
+        />
+    <item
+        android:id="@+id/profileFragment"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_person_black_24dp"/>
+</menu>

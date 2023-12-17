@@ -1,0 +1,58 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/color_black"
+    android:layout_height="match_parent"
+    tools:context=".fragments.PassFragment"
+        >
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_good"
+        android:layout_marginBottom="7dp"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="24sp"
+        app:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="4dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_detail"
+        android:layout_marginTop="3dp"
+        android:textStyle="bold"
+        app:fontFamily="serif-monospace"
+        android:textColor="@color/colorPrimary"
+        />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pass_signupbtn"
+            android:textAllCaps="false"
+            app:elevation="4dp"
+            app:cornerRadius="8dp"
+            android:padding="18dp"
+            android:layout_marginTop="5dp"
+            android:text="Create Account"/>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pass_signinbtn"
+            android:text="Sign in"
+            android:padding="12dp"
+            app:cornerRadius="4dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="5dp"
+            app:backgroundTint="@color/color_dark_blue"
+            />
+
+    </LinearLayout>

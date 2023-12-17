@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_person_24"
+        />
+    <TextView
+        android:id="@+id/agent_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="2dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="@color/color_black"
+        android:text="Dear Precious Umeha"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="2dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_margin="12dp"
+        android:typeface="serif"
+        android:textColor="@color/color_black"
+        android:text=" If you become our agent, you can bet game for another user whether \nhe/she has an account with us or not. "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="2dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:typeface="serif"
+        android:textColor="@color/color_black"
+        android:text="Ticket won are meant to be cash out in any of our branch office"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="become an agent"
+        android:padding="12dp"
+        app:iconGravity="end"
+        app:elevation="4dp"
+        android:layout_gravity="center"
+        android:id="@+id/agent_send_btn"
+        app:backgroundTint="#1A9F46"
+        />
+    </LinearLayout>
+</ScrollView>
